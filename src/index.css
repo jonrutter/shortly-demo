@@ -1,0 +1,59 @@
+:root {
+  font-size: 18px;
+  line-height: 1.5;
+  box-sizing: border-box;
+
+  --cyan: hsl(180, 66%, 49%);
+  --violet: hsl(257, 27%, 26%);
+  --violet-dark: hsl(260, 8%, 14%);
+  --red: hsl(0, 87%, 67%);
+  --grey-light: hsl(0, 0%, 75%);
+  --grey: hsl(257, 7%, 63%);
+  --grey-dark: hsl(255, 11%, 22%);
+
+  --max-width: 1200px;
+
+  --content-padding: 2rem 1.5rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  color: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  line-height: inherit;
+  border: none;
+  background: transparent;
+  text-transform: none;
+  overflow: visible;
+  cursor: pointer;
+  font-weight: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
