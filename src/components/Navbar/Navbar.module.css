@@ -1,0 +1,24 @@
+.nav {
+  display: grid;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: var(--content-padding);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuBtn {
+  font-size: 1.5rem;
+  color: var(--grey);
+  line-height: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .menuBtn {
+    display: none;
+  }
+}
