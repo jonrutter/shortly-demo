@@ -30,6 +30,14 @@
   display: block;
   background-color: var(--cyan);
   width: 100%;
+  max-width: 300px;
+  margin: auto;
   border-radius: 1.5rem;
   padding: 0.5rem 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    display: none;
+  }
 }

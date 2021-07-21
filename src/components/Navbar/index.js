@@ -13,7 +13,7 @@ import { FaBars } from 'react-icons/fa';
 import NavDropdown from '../NavDropdown';
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(true);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
     <nav className={s.nav}>
       <div className={s.header}>
