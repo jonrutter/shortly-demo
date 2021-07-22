@@ -36,8 +36,8 @@ export const links = [
 ];
 
 export const socialLinks = [
-  { icon: <FaFacebookSquare />, url: '#' },
-  { icon: <FaTwitter />, url: '#' },
-  { icon: <FaPinterest />, url: '#' },
-  { icon: <FaInstagram />, url: '#' },
+  { icon: <FaFacebookSquare />, url: '#', label: 'Facebook' },
+  { icon: <FaTwitter />, url: '#', label: 'Twitter' },
+  { icon: <FaPinterest />, url: '#', label: 'Pinterest' },
+  { icon: <FaInstagram />, url: '#', label: 'Instagram' },
 ];

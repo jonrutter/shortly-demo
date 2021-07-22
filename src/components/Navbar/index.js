@@ -21,6 +21,7 @@ const Navbar = () => {
         <button
           className={s.menuBtn}
           onClick={() => setDropdownOpen(!dropdownOpen)}
+          aria-label="Toggle navigation"
         >
           {dropdownOpen ? <FaTimes /> : <FaBars />}
         </button>
