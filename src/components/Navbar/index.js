@@ -7,7 +7,7 @@ import s from './Navbar.module.css';
 import LogoImg from '../../images/logo.svg';
 
 // hamburger icon
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 // components
 import NavDropdown from '../NavDropdown';
@@ -22,7 +22,7 @@ const Navbar = () => {
           className={s.menuBtn}
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
-          <FaBars />
+          {dropdownOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
       <div className={s.links}>
