@@ -5,54 +5,73 @@ import s from './Shortener.module.css';
 
 // components
 import Section from '../Section';
-import ShortenedLink from '../ShortenedLink';
 import Spinner from '../Spinner';
 
-const links = [
-  {
-    url: 'https://www.jonrutter.com',
-    short: 'https://rel.ink/534w5s',
-    id: 548923740592345,
-  },
-  {
-    url: 'https://www.google.com',
-    short: 'https://rel.ink/sofdi',
-    id: 504367045345,
-  },
-  {
-    url: 'https://www.facebook.com',
-    short: 'https://rel.ink/69tinsd',
-    id: 34059340535,
-  },
-];
+// helper functions
+import { getLocalStorage } from '../../helper';
+
+const BASE_URL = 'https://api.shrtco.de/v2/shorten?url=';
 
 const Shortener = () => {
   const [value, setValue] = useState('');
-  const [submit, setSubmit] = useState('');
-  const [shortenedLinks, setShortenedLinks] = useState(links);
+  const [links, setLinks] = useState(getLocalStorage());
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  // Updates localStorage
+  useEffect(() => {
+    localStorage.setItem('links', JSON.stringify(links));
+  }, [links]);
+
+  // handles changes to the input field
   const handleInput = (e) => {
     setValue(e.target.value);
-
-    // if the error was simply an empty form, provide real-time feedback to users by removing error as soon as a value is entered
-    if (error === 'Please enter a link') {
-      setError('');
-    }
   };
 
+  // handles form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmit(value);
 
-    console.log('Attempting to shorten: ' + submit);
+    // handling multiple fetch attempts
+    if (loading) {
+      setError('Please wait until previous link is finished generating.');
+      return;
+    }
 
     // handling empty values
     if (value === '') {
       setError('Please enter a link');
-    } else {
-      setError('');
+      return;
+    }
+
+    setError('');
+    fetchURL(value);
+  };
+
+  const fetchURL = async (url) => {
+    setLoading(true);
+    try {
+      const endpoint = BASE_URL + url;
+      const response = await fetch(endpoint);
+      const data = await response.json();
+      if (!data.ok) {
+        setError(data.error);
+        throw new Error(error);
+      }
+      const newLink = {
+        url: data.result['original_link'],
+        short: data.result['full_short_link2'],
+        id: Date.now(),
+      };
+      setLinks((prev) => prev.concat(newLink));
+    } catch (error) {
+      console.log(error);
+      // provide a stock error message if none other provided
+      if (!error) {
+        setError('Sorry! We ran into an error. Please try again.');
+      }
+    } finally {
+      setLoading(false);
     }
   };
 
