@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: #f0f1f6;
+}
+
+.content {
+  padding: var(--content-padding);
+  text-align: center;
+}
+
+.content h2 {
+  color: var(--grey-dark);
+  margin-bottom: 1rem;
+}
+
+.content p {
+  color: var(--grey);
+  margin-bottom: 1rem;
+  max-width: 600px;
+  margin: auto;
+}

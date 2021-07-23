@@ -1,0 +1,43 @@
+.card {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  padding: 4rem 2rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.card img {
+  background-color: var(--violet);
+  border-radius: 50%;
+  padding: 1rem;
+  position: absolute;
+  right: calc(50% - 38px);
+  top: -38px;
+  width: 76px;
+  height: 76px;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--grey-dark);
+}
+
+.card p {
+  color: var(--grey);
+}
+
+@media screen and (min-width: 1200px) {
+  .card:nth-child(1) {
+    margin-top: 0rem;
+  }
+  .card:nth-child(2) {
+    margin-top: 2rem;
+  }
+  .card:nth-child(3) {
+    margin-top: 4rem;
+  }
+}
