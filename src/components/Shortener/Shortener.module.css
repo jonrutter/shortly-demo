@@ -1,0 +1,155 @@
+.wrapper {
+  background-color: #f0f1f6;
+}
+
+.contentWrap {
+  max-width: var(--max-width);
+  margin: 5rem auto -5rem;
+  padding: var(--content-padding);
+  padding-top: 0px;
+  transform: translateY(-4.5rem);
+}
+
+.shortener {
+  background: url('../../images/bg-shorten-mobile.svg') no-repeat top right /
+      contain,
+    var(--violet);
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  grid-gap: 1rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.hiddenLabel {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: fixed;
+  right: -1000px;
+}
+
+.inputWrap {
+  max-width: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  font-size: inherit;
+  border-radius: 0.2rem;
+  line-height: inherit;
+  border: none;
+  outline: none;
+  background-color: white;
+  max-width: 100%;
+  min-width: 100%;
+  display: block;
+}
+
+.input.inputError {
+  border: 3px solid var(--red);
+}
+
+.msg {
+  color: var(--red);
+  font-style: italic;
+  font-size: 0.8rem;
+  margin: 0.2rem 0rem;
+}
+
+.submit {
+  background-color: var(--cyan);
+  font-weight: 700;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--cyan);
+  width: 100%;
+  max-width: 100%;
+}
+
+.submit:hover {
+  background-color: #93e6e6;
+}
+
+.link {
+  background-color: white;
+  border-radius: 0.2rem;
+  margin-bottom: 1.5rem;
+  display: grid;
+  padding: 1rem;
+  grid-gap: 0.5rem;
+  width: 100%;
+}
+
+.linkFull {
+  min-width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  position: relative;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.linkShort {
+  color: var(--cyan);
+}
+
+.linkButton {
+  background-color: var(--cyan);
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.linkButton:hover {
+  opacity: 0.5;
+}
+
+.link .active {
+  background-color: var(--violet);
+}
+
+@media screen and (min-width: 800px) {
+  .shortener {
+    padding: 3rem 2rem;
+    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-size: cover;
+  }
+
+  .form {
+    grid-template-columns: 1fr auto;
+  }
+
+  .msg {
+    position: absolute;
+  }
+
+  .link {
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    grid-gap: 1.5rem;
+  }
+
+  .linkFull {
+    border: none;
+    padding: 0;
+  }
+
+  .linkShort {
+    justify-self: end;
+  }
+}

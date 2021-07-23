@@ -1,6 +1,8 @@
 {
   "name": "url-shortener",
   "version": "0.1.0",
+  "description": "Demo landing page for a fictitious web analytics company, with a functioning url shortener component. Built with React.",
+  "author": "Jon Rutter",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -8,6 +10,7 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
   }
 }

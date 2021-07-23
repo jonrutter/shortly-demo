@@ -1,0 +1,64 @@
+.nav {
+  display: grid;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: var(--content-padding);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuBtn {
+  font-size: 1.5rem;
+  color: var(--grey);
+  line-height: 1;
+}
+
+.links {
+  display: none;
+  justify-content: space-between;
+  color: var(--grey);
+  font-weight: 700;
+}
+
+.links ul {
+  display: flex;
+  align-items: center;
+}
+
+.links li:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.links a:hover {
+  color: var(--grey-dark);
+}
+
+.links .signup {
+  background-color: var(--cyan);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+}
+
+.links .signup:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+  .nav {
+    grid-template-columns: auto 1fr;
+    grid-gap: 3rem;
+  }
+  .menuBtn {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+  }
+}

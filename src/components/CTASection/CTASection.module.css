@@ -1,0 +1,37 @@
+.wrapper {
+  background: url('../../images/bg-boost-mobile.svg') no-repeat top left / cover,
+    var(--violet);
+  min-height: 100px;
+}
+
+.content {
+  color: white;
+  padding: var(--content-padding);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  place-items: center;
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+}
+
+.getStarted {
+  background-color: var(--cyan);
+  font-weight: bold;
+  padding: 0.75rem 2.5rem;
+  border-radius: 2rem;
+}
+
+.getStarted:hover {
+  background-color: #93e6e6;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    background-image: url('../../images/bg-boost-desktop.svg');
+  }
+}

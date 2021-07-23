@@ -1,0 +1,43 @@
+.wrapper {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  right: 1rem;
+  padding: 2rem 1.5rem;
+  z-index: 2;
+  background-color: var(--violet);
+  color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.wrapper li {
+  margin-bottom: 1.5rem;
+}
+
+.wrapper a {
+  display: block;
+  width: 100%;
+}
+
+.wrapper ul:first-child {
+  border-bottom: 1px solid #544a6d;
+  margin-bottom: 1.5rem;
+}
+
+.signup {
+  display: block;
+  background-color: var(--cyan);
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    display: none;
+  }
+}
