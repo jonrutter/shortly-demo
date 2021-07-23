@@ -14,16 +14,16 @@ const Footer = () => {
     <footer className={s.wrapper}>
       <div className={s.content}>
         <img src={LogoImg} alt="Shortly" />
-        {links.map((linkGroup) => {
+        {links.map((linkGroup, index) => {
           const { title, sublinks } = linkGroup;
           return (
-            <article className={s.links}>
+            <article className={s.links} key={index}>
               <h2>{title}</h2>
               <ul>
-                {sublinks.map((link) => {
+                {sublinks.map((link, index) => {
                   const { text, url } = link;
                   return (
-                    <li>
+                    <li key={index}>
                       <a href={url}>{text}</a>
                     </li>
                   );
@@ -33,10 +33,10 @@ const Footer = () => {
           );
         })}
         <ul className={s.socialLinks}>
-          {socialLinks.map((socialLink) => {
+          {socialLinks.map((socialLink, index) => {
             const { icon, url, label } = socialLink;
             return (
-              <li>
+              <li key={index}>
                 <a href={url} className={s.socialLink} aria-label={label}>
                   {icon}
                 </a>
