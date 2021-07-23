@@ -6,6 +6,7 @@ import s from './Shortener.module.css';
 // components
 import Section from '../Section';
 import Spinner from '../Spinner';
+import ShortenedLink from '../ShortenedLink';
 
 // helper functions
 import { getLocalStorage } from '../../helper';
@@ -34,7 +35,7 @@ const Shortener = () => {
 
     // handling multiple fetch attempts
     if (loading) {
-      setError('Please wait until previous link is finished generating.');
+      setError('Please wait until the previous link is finished generating.');
       return;
     }
 
@@ -104,13 +105,7 @@ const Shortener = () => {
             <div className={s.links}>
               {links.map((link) => {
                 const { url, short, id } = link;
-                return (
-                  <div className={s.link} key={id}>
-                    <p className={s.linkFull}>{url}</p>
-                    <p className={s.linkShort}>{short}</p>
-                    <button className={s.linkButton}>Copy</button>
-                  </div>
-                );
+                return <ShortenedLink key={id} url={url} short={short} />;
               })}
             </div>
           )}
