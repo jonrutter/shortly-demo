@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.spinner {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid var(--cyan);
+  border-top-color: var(--violet);
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

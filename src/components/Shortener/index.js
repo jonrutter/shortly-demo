@@ -6,6 +6,7 @@ import s from './Shortener.module.css';
 // components
 import Section from '../Section';
 import ShortenedLink from '../ShortenedLink';
+import Spinner from '../Spinner';
 
 const links = [
   {
@@ -94,9 +95,9 @@ const Shortener = () => {
               })}
             </div>
           )}
+          {loading && <Spinner />}
         </div>
       </div>
-      {/* {loading && <LoadingSpinner />} */}
     </Section>
   );
 };
