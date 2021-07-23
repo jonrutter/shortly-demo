@@ -1,6 +1,6 @@
 .wrapper {
   max-width: var(--max-width);
-  margin: 2rem auto;
+  margin: 3rem auto;
   display: grid;
   grid-gap: 3rem;
 }
