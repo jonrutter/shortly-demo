@@ -1,11 +1,11 @@
 .wrapper {
+  max-width: var(--max-width);
+  margin: auto;
   padding: var(--content-padding);
   padding-bottom: 5rem;
 }
 
 .content {
-  max-width: var(--max-width);
-  margin: auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5rem;
