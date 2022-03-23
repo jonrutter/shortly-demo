@@ -32,6 +32,8 @@ The site features a functioning url shortener component. Type a url into the inp
 
 ![Preview of the url shortener component](./github/preview-shortener.png)
 
+<br />
+
 In addition, the site features a fully mobile responsive design, and interactive UI components.
 
 <div>
