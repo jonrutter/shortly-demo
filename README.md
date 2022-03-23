@@ -4,7 +4,7 @@
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-url-shortener.netlify.app/)
 [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/jonrutter/url-shortener)
 [![GitHub Stars](https://img.shields.io/github/stars/jonrutter/url-shortener.svg)](https://github.com/jonrutter/url-shortener/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/blogr-landing-page.svg)](https://github.com/jonrutter/url-shortener/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/url-shortener.svg)](https://github.com/jonrutter/url-shortener/issues)
 
 This is a demo landing page for a fictional web analytics company, Shortly. The site includes a functioning URL shortener.
 
