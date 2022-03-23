@@ -1,0 +1,18 @@
+.link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 2rem;
+  border: 2px solid var(--violet);
+  background-color: #ffffff;
+  color: var(--violet-dark);
+  text-align: center;
+  text-decoration: underline;
+  transform: translatey(-100%);
+  transition: all 0.3s;
+}
+
+.link:focus {
+  transform: translatey(0);
+}
