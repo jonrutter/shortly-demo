@@ -2,9 +2,9 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/a92e1e86-e021-4968-a686-3bd7404647fe/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-url-shortener.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/jonrutter/url-shortener)
-[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/url-shortener.svg)](https://github.com/jonrutter/url-shortener/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/url-shortener.svg)](https://github.com/jonrutter/url-shortener/issues)
+[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/rutterjt/url-shortener)
+[![GitHub Stars](https://img.shields.io/github/stars/rutterjt/url-shortener.svg)](https://github.com/rutterjt/url-shortener/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/rutterjt/url-shortener.svg)](https://github.com/rutterjt/url-shortener/issues)
 
 This is a demo landing page for a fictional web analytics company, Shortly. The site includes a functioning URL shortener.
 
@@ -55,9 +55,9 @@ Preview the live demo: [https://jonrutter-url-shortener.netlify.app/](https://jo
 
 **Jon Rutter**
 
-- [GitHub Profile](https://www.github.com/jonrutter)
-- [Email](mailto:contact@jonrutter.com)
-- [Website](https://www.jonrutter.com)
+- [GitHub Profile](https://www.github.com/rutterjt)
+- [Email](mailto:contact@jonrutter.io)
+- [Website](https://www.jonrutter.io)
 
 ## License
 
