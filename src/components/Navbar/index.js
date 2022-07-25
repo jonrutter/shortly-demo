@@ -29,21 +29,21 @@ const Navbar = () => {
       <div className={s.links}>
         <ul>
           <li>
-            <a href="#">Features</a>
+            <a href="/">Features</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href="/">Pricing</a>
           </li>
           <li>
-            <a href="#">Resources</a>
+            <a href="/">Resources</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#">Login</a>
+            <a href="/">Login</a>
           </li>
           <li>
-            <a href="#" className={s.signup}>
+            <a href="/" className={s.signup}>
               Sign Up
             </a>
           </li>
