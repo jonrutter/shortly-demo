@@ -2,17 +2,17 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/a92e1e86-e021-4968-a686-3bd7404647fe/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-url-shortener.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/rutterjt/url-shortener)
 [![GitHub Stars](https://img.shields.io/github/stars/rutterjt/url-shortener.svg)](https://github.com/rutterjt/url-shortener/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/rutterjt/url-shortener.svg)](https://github.com/rutterjt/url-shortener/issues)
 
 This is a demo landing page for a fictional web analytics company, Shortly. The site includes a functioning URL shortener.
 
+Preview a live demo: [https://jonrutter-url-shortener.netlify.app/](https://jonrutter-url-shortener.netlify.app/)
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#description">Description</a></li>
-    <li><a href="#live-demo">Live Demo</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#author">Author</a></li>
     <li><a href="#license">License</a></li>
@@ -42,11 +42,9 @@ In addition, the site features a fully mobile responsive design, and interactive
 
 <br />
 
-## Live Demo
-
-Preview the live demo: [https://jonrutter-url-shortener.netlify.app/](https://jonrutter-url-shortener.netlify.app/)
-
 ## Built with
+
+This project was built with:
 
 - [React](https://reactjs.org/)
 - CSS Modules
