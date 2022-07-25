@@ -33,6 +33,10 @@
   margin-right: 1.5rem;
 }
 
+.links a {
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .links a:hover {
   color: var(--grey-dark);
 }
@@ -42,6 +46,7 @@
   color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 2rem;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links .signup:hover {
