@@ -4,10 +4,10 @@
 }
 
 .spinner {
-  height: 100px;
-  width: 100px;
+  height: 54px;
+  width: 54px;
   border-radius: 50%;
-  border: 10px solid var(--cyan);
+  border: 5px solid transparent;
   border-top-color: var(--violet);
   animation: spinner 1s linear infinite;
 }
