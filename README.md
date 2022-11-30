@@ -2,8 +2,8 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/a92e1e86-e021-4968-a686-3bd7404647fe/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-url-shortener.netlify.app/)
-[![GitHub Stars](https://img.shields.io/github/stars/rutterjt/url-shortener.svg)](https://github.com/rutterjt/url-shortener/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/rutterjt/url-shortener.svg)](https://github.com/rutterjt/url-shortener/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/shortly-demo.svg)](https://github.com/jonrutter/shortly-demo/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/shortly-demo.svg)](https://github.com/jonrutter/shortly-demo/issues)
 
 This is a demo landing page for a fictional web analytics company, Shortly. The site includes a functioning URL shortener.
 
@@ -22,7 +22,7 @@ Preview a live demo: [https://jonrutter-url-shortener.netlify.app/](https://jonr
 
 ## Description
 
-I built this project as part of FrontEnd Mentor's front-end challenges. The site is a demo landing page for a fictitious web analytics company, Shortly.
+The site is a demo landing page for Shortly, a fictitious web analytics company. I built this project as part of FrontEnd Mentor's front-end challenges.
 
 ![Preview of the Shortly Landing Page project](./github/preview-main.png)
 
@@ -34,7 +34,7 @@ The site features a functioning url shortener component. Type a url into the inp
 
 <br />
 
-In addition, the site features a fully mobile responsive design, and interactive UI components.
+The site additionally features a fully mobile responsive design, and interactive UI components.
 
 <div>
   <img src="./github/preview-mobile-nav.png" alt="Preview of mobile nav interactivity" width="300px" />
@@ -53,7 +53,7 @@ This project was built with:
 
 **Jon Rutter**
 
-- [GitHub Profile](https://www.github.com/rutterjt)
+- [GitHub Profile](https://www.github.com/jonrutter)
 - [Email](mailto:contact@jonrutter.io)
 - [Website](https://www.jonrutter.io)
 
