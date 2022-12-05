@@ -1,5 +1,6 @@
 .wrapper {
-  background: url('../../images/bg-boost-mobile.svg') no-repeat top left / cover,
+  background: url('../../assets/images/bg-boost-mobile.svg') no-repeat top left /
+      cover,
     var(--violet);
   min-height: 100px;
 }
@@ -33,6 +34,6 @@
 
 @media screen and (min-width: 600px) {
   .wrapper {
-    background-image: url('../../images/bg-boost-desktop.svg');
+    background-image: url('../../assets/images/bg-boost-desktop.svg');
   }
 }

@@ -11,8 +11,8 @@
 }
 
 .shortener {
-  background: url('../../images/bg-shorten-mobile.svg') no-repeat top right /
-      contain,
+  background: url('../../assets/images/bg-shorten-mobile.svg') no-repeat top
+      right / contain,
     var(--violet);
   width: 100%;
   padding: 1.5rem;
@@ -90,7 +90,7 @@
 @media screen and (min-width: 800px) {
   .shortener {
     padding: 3rem 2rem;
-    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-image: url('../../assets/images/bg-shorten-desktop.svg');
     background-size: cover;
   }
 

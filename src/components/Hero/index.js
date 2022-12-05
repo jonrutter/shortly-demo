@@ -7,7 +7,7 @@ import s from './Hero.module.css';
 import Section from '../Section';
 
 // images
-import HeroImg from '../../images/illustration-working.svg';
+import HeroImg from '../../assets/images/illustration-working.svg';
 
 const Hero = () => {
   return (
@@ -18,6 +18,8 @@ const Hero = () => {
             className={s.img}
             src={HeroImg}
             alt="Graphical illustration of a person working on a computer"
+            width="733"
+            height="482"
           />
         </div>
         <div className={s.wrapperLeft}>

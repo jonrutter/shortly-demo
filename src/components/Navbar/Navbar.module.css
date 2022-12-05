@@ -5,6 +5,11 @@
   padding: var(--content-padding);
 }
 
+.nav img {
+  width: 121px;
+  height: 33px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

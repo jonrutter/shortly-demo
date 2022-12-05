@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import s from './Navbar.module.css';
 
 // logo
-import LogoImg from '../../images/logo.svg';
+import LogoImg from '../../assets/images/logo.svg';
 
 // hamburger icon
 import { FaBars, FaTimes } from 'react-icons/fa';
@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.header}>
-        <img src={LogoImg} alt="Shortly" />
+        <img src={LogoImg} alt="Shortly" width="121" height="33" />
         <button
           className={s.menuBtn}
           onClick={() => setDropdownOpen(!dropdownOpen)}

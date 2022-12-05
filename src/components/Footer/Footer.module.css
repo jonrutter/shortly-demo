@@ -16,6 +16,11 @@
   grid-gap: 2rem;
 }
 
+.logo {
+  width: 121px;
+  height: 33px;
+}
+
 .linksWrap {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
