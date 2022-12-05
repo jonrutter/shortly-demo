@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import s from './Navbar.module.css';
 
 // logo
-import LogoImg from '../../images/logo.svg';
+import LogoImg from '../../assets/images/logo.svg';
 
 // hamburger icon
 import { FaBars, FaTimes } from 'react-icons/fa';

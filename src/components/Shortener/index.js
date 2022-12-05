@@ -9,7 +9,7 @@ import Spinner from '../Spinner';
 import ShortenedLink from '../ShortenedLink';
 
 // helper functions
-import { getLocalStorage } from '../../helper';
+import { getLocalStorage } from '../../utils/helper';
 
 const BASE_URL = 'https://api.shrtco.de/v2/shorten?url=';
 

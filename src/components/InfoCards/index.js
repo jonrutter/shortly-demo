@@ -4,9 +4,9 @@ import React from 'react';
 import s from './InfoCards.module.css';
 
 // images
-import BrandRecognitionIcon from '../../images/icon-brand-recognition.svg';
-import DetailedRecordsIcon from '../../images/icon-detailed-records.svg';
-import FullyCustomizableIcon from '../../images/icon-fully-customizable.svg';
+import BrandRecognitionIcon from '../../assets/images/icon-brand-recognition.svg';
+import DetailedRecordsIcon from '../../assets/images/icon-detailed-records.svg';
+import FullyCustomizableIcon from '../../assets/images/icon-fully-customizable.svg';
 
 // components
 import InfoCard from '../InfoCard';

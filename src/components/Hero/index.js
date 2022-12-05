@@ -7,7 +7,7 @@ import s from './Hero.module.css';
 import Section from '../Section';
 
 // images
-import HeroImg from '../../images/illustration-working.svg';
+import HeroImg from '../../assets/images/illustration-working.svg';
 
 const Hero = () => {
   return (

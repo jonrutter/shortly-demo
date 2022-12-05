@@ -4,10 +4,11 @@ import React from 'react';
 import s from './Footer.module.css';
 
 // logo
-import LogoImg from '../../images/logo-footer.svg';
+import LogoImg from '../../assets/images/logo-footer.svg';
 
 // links data
-import { links, socialLinks } from '../../footer-links';
+import { links } from '../../data/links';
+import { socialLinks } from '../../data/social-links';
 
 const Footer = () => {
   return (
@@ -21,10 +22,10 @@ const Footer = () => {
               <h2>{title}</h2>
               <ul>
                 {sublinks.map((link, index) => {
-                  const { text, url } = link;
+                  const { label, url } = link;
                   return (
                     <li key={index}>
-                      <a href={url}>{text}</a>
+                      <a href={url}>{label}</a>
                     </li>
                   );
                 })}
