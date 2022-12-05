@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.header}>
-        <img src={LogoImg} alt="Shortly" />
+        <img src={LogoImg} alt="Shortly" width="121" height="33" />
         <button
           className={s.menuBtn}
           onClick={() => setDropdownOpen(!dropdownOpen)}

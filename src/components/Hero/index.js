@@ -18,6 +18,8 @@ const Hero = () => {
             className={s.img}
             src={HeroImg}
             alt="Graphical illustration of a person working on a computer"
+            width="733"
+            height="482"
           />
         </div>
         <div className={s.wrapperLeft}>

@@ -14,7 +14,13 @@ const Footer = () => {
   return (
     <footer className={s.wrapper}>
       <div className={s.content}>
-        <img src={LogoImg} alt="Shortly" />
+        <img
+          src={LogoImg}
+          className={s.logo}
+          alt="Shortly"
+          width="121"
+          height="33"
+        />
         {links.map((linkGroup, index) => {
           const { title, sublinks } = linkGroup;
           return (
